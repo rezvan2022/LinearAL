@@ -3,6 +3,7 @@ clear all
 close all
 tic
 n=4;
+%The Gauss–Seidel method is an iterative technique for solving a square system of n linear equations with unknown x:
 A=generateSPDmatrix(n);
 [m,m]=size(A);
 for i=1:m
