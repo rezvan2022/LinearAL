@@ -1,6 +1,9 @@
 clc
 clear all
 close all;
+%In linear algebra, the Cholesky decomposition or Cholesky factorization
+%is a decomposition of a Hermitian, positive-definite matrix into the product of 
+%a lower triangular matrix and its conjugate transpose, which is useful for efficient numerical solutions, e.g., Monte Carlo simulations.
 n=10;
 M=randn(n,n)
 A=M*M';
