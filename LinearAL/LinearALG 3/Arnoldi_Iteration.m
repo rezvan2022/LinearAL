@@ -2,6 +2,7 @@ clc
 clear all
 close all
 n=10;
+
 %  A=hilb(n);
  A=generateSPDmatrix(n);
 for i=1:n
