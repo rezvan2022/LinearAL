@@ -2,7 +2,9 @@ clc
 clear all
 close all
 n=10;
-
+%The Arnoldi iteration uses the modified Gram–Schmidt process to produce a sequence of orthonormal vectors, 
+%q1, q2, q3, …, called the Arnoldi vectors, such that for every n, the vectors q1, …, qn span the Krylov subspace
+%K_n
 %  A=hilb(n);
  A=generateSPDmatrix(n);
 for i=1:n
