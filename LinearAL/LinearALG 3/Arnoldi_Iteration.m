@@ -5,6 +5,7 @@ n=10;
 %The Arnoldi iteration uses the modified Gram–Schmidt process to produce a sequence of orthonormal vectors, 
 %q1, q2, q3, …, called the Arnoldi vectors, such that for every n, the vectors q1, …, qn span the Krylov subspace
 %K_n
+%The idea of the Arnoldi iteration as an eigenvalue algorithm is to compute the eigenvalues in the Krylov subspace
 %  A=hilb(n);
  A=generateSPDmatrix(n);
 for i=1:n
